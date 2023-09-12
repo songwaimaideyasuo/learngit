@@ -1,4 +1,6 @@
 Hello World
 Hello ZhangSan
 chat GPT
-Gpt is Generative Pre-Trained Transformer,The AI big model is more like the human brain.
+Gpt is Generative Pre-Trained Transformer
+The AI big model is more like the human brain
+Hi
