@@ -1,0 +1,43 @@
+git log --graph --pretty=oneline --abbrev-commit
+
+git switch
+
+git merge 
+
+历史提交的commit id，然后打上就可以了：
+$ git log --pretty=oneline --abbrev-commit
+
+
+查看分支 git branch
+
+查看远程分支 git branch -r
+
+查看所有分支 git branch -a
+
+删除本地分支 git branch -d 分支名  比如 git branch -d dev
+
+强制删除本地分支 git branch -D 分支名  
+
+删除远程分支 git push 远程仓库名 :分支名     比如  git push origin :dev
+
+查看标签 git tag
+
+创建标签 git tag -a 标签名 -m '描述'
+
+删除本地标签 git tag -d 标签名
+
+强制删除本地标签 git tag -D 标签名
+
+删除远程标签 git push 远程仓库名 :标签名
+
+如果冲突实在是特别特别多，可以取消本次rebase，回到rebase之前的状态：git rebase --abort
+
+可以先将远程的代码拉下来git pull
+
+强制推送到github：git push --force github master
+
+如果你想完全地覆盖本地的代码，只保留服务器端代码。
+则直接回退到上一个版本git reset --hard
+再进行pull：将远程 master 更改拉到本地的 master ：git pull origin master
+
+从本地仓库推送到远程仓库：git push
